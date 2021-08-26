@@ -77,6 +77,7 @@
           ([result]
            (reset! translations (read-translations result))
            (reset! text-to-type text)
+           (reset! index 0)
            (reset! state :ok))
 
           (timeout 3000) (reset! text-to-type "connection timed out :<"))))
