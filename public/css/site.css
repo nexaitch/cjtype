@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  font-family: neue-haas-grotesk-text, source-han-sans-cjk-tc, sans-serif;
   max-width: 840px;
   margin: 0 auto;
   padding-top: 72px;
@@ -11,6 +11,7 @@ body {
 
 h1, h2, h3 {
   color: #000;
+  font-weight: 700
 }
 h1 {
   font-size: 2.5em
